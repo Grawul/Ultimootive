@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\UltimootiveServerDatabase\UltimootiveServerDatabaseConnection.cs" />
+    <Compile Include="Classes\UltimootiveServerDatabase\UserModel.cs" />
+    <Compile Include="Classes\UltimootiveServerRuntime\UltimootiveServerRuntime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
