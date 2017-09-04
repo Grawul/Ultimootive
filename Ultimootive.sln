@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultimootive", "Ultimootive\Ultimootive.csproj", "{35DD6C0B-D4A8-4F3D-8356-18C87B387641}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimootiveClient", "Ultimootive\UltimootiveClient.csproj", "{35DD6C0B-D4A8-4F3D-8356-18C87B387641}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimootiveServer", "UltimootiveServer\UltimootiveServer.csproj", "{DB6D4D85-E1F8-443E-9118-9F5C81D91482}"
 EndProject
