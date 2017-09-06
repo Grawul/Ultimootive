@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace UltimootiveServer.Classes.UltimootiveServerDatabase
 {
-    class UserModel
+    class UltimootiveUser
     {
         #region Fields
         private string username;
         private string password;
+        private string accounttype;
         #endregion
 
         #region Constructors
@@ -40,6 +41,19 @@ namespace UltimootiveServer.Classes.UltimootiveServerDatabase
             set
             {
                 password = value;
+            }
+        }
+
+        public string Accounttype
+        {
+            get
+            {
+                return accounttype;
+            }
+
+            set
+            {
+                accounttype = value;
             }
         }
         #endregion

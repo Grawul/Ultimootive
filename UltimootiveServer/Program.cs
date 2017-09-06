@@ -17,7 +17,10 @@ namespace UltimootiveServer
             // -- Create database stuff
             // -- GRANT ALL PRIVILEGES ON ultimootivedb.* TO 'db_user'@'%' IDENTIFIED BY PASSWORD 'password' WITH GRANT OPTION;
             //run.testDatabase();
+            //run.dropDefaultTables();
             //run.createDefaultTables();
+            //run.createDefaultContent();
+            //Console.ReadKey();
             //run.dropDefaultTables();
             // --
             // ---

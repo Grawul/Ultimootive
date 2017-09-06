@@ -9,13 +9,13 @@ namespace UltimootiveServer.Classes
     class UltimootiveServerRuntime
     {
         #region Fields
-        private UltimootiveServerDatabaseConnection databaseConnection = null;
+        private UltimootiveDatabaseConnection databaseConnection = null;
         #endregion
 
         #region Constructors
         public UltimootiveServerRuntime()
         {
-            databaseConnection = new UltimootiveServerDatabaseConnection();
+            databaseConnection = new UltimootiveDatabaseConnection();
         }
         #endregion
 
@@ -27,6 +27,10 @@ namespace UltimootiveServer.Classes
         public void createDefaultTables()
         {
             databaseConnection.createDefaultTables();
+        }
+        public void createDefaultContent()
+        {
+            databaseConnection.createDefaultContent();
         }
         public void dropDefaultTables()
         {
